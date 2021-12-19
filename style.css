@@ -1,0 +1,211 @@
+:root
+{
+    --maincolor:#F1FAEE;
+    --dark-blue:#023047;
+}
+body
+{
+    font-family: Poppins;
+    margin: 0 auto;
+    background: #fff;
+}
+.content
+{
+  margin-top:60px;  
+}
+.choose
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+.nonresponsive
+{
+    width: 100%;
+    height: 40px;
+    background: purple;
+    color:#fff;
+    text-align: center;
+    line-height: 20px;
+}
+.pricing
+{
+    width: 100%;
+    margin-top:25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    overflow: hidden;
+}
+.pricing .about
+{
+    margin-left:35px;
+}
+.pricing .info i
+{
+    margin:0.5em;
+    color:#06D6A0;
+}
+.pricing span
+{
+    font-size: 68px;
+    line-height: 102px;
+    font-weight: bold;
+    transition: ease-in-out .2s;
+}
+.pricing h2
+{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.pricing .description
+{
+    font-size: 13px;
+}
+.pricing .info
+{
+    margin-top:20px;
+    font-size: 15px;
+}
+.pricing .chooseplan
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    width: 221px;
+    height: 54px;
+    transition: .2s ease-in-out;
+    border: 1px solid #023047;
+    background: #023047;
+    color:#fff;
+    padding: 10px;
+    border-radius: 24px;
+    margin-top:40px;
+    
+}
+.pricing button:hover, .pricing .professional .chooseplan:hover
+{
+    transition: .2s ease-in-out;
+    border: 1px solid #076e53;
+  background: #06D6A0;
+  color:#fff;
+}
+.pricing .professional .chooseplan
+{
+    border: 1px solid #c09226;
+    background: #FFD166;
+    color:#000;
+}
+.pricing svg {
+  width: 285px;
+  height: 305px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  }
+.period
+{
+    background-color:var(--dark-blue);
+    padding:1em;
+    border-radius:44px;
+    width: 240px;
+    height: 36px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.choose h2
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.btn {
+    width: 137px;
+    height: 44px;
+    border-radius:24px;
+    margin-left:5px;
+    color:#fff;
+    cursor: pointer;
+    background: transparent;
+    transition: ease-in-out .2s;
+    border:none;
+    
+}
+.active, .btn:hover {
+    transition: .2s ease-in-out;
+    border: 1px solid #076e53;
+  background: #06D6A0;
+  }
+.basic
+{
+    width: 285px;
+    height: 459px;
+    color:#000;
+    background: #E5EDE2;
+    position: relative;
+    z-index: 1;
+}
+.professional
+{
+    width: 285px;
+    height: 489px;
+    color:#fff;
+    background: #023047;
+    border-radius: 0px 0px 24px 24px;
+    margin-top:25px;
+    position: relative;
+    z-index: 1;
+}
+.professional .best
+{
+    width: 285px;
+    height: 35px;
+    background: #EF476F;
+    border-radius: 24px 24px 0px 0px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    top: -28px;
+    position: relative;
+    z-index: 1;
+}
+.business
+{
+
+    width: 285px;
+    height: 459px;
+    color:#000;
+    background: var(--maincolor);
+    position: relative;
+    z-index: 1;
+}
+.footer
+{
+    width: 100%;
+    position: absolute;
+    color:#000;
+    text-align: center;
+    bottom:32em;
+}
+.footer a{color:var(--dark-blue);}
+.footer a:hover{color:#000;}
+.footer span{color:var(--dark-blue);font-size: 20px;}
