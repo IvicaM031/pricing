@@ -1,7 +1,5 @@
 
 var btnContainer = document.getElementsByClassName("period");
-
-// Get all buttons with class="btn" inside the container
 var btns = btnContainer.getElementsByClassName("btn");
 function yearly()
 {
